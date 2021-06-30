@@ -1,8 +1,11 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
+const dbConnection = require('./db');
 
-const routeProduct = require('./router/product.js')
+dbConnection();
+
+const routeProduct = require('./routes/product.js')
 
 app.use('/api/v1', routeProduct);
 
