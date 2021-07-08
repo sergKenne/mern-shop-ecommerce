@@ -4,7 +4,8 @@
   "description": "full ecommerce (node express\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[mongodb express react nodejs)",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js"
+    "start": "nodemon backend/server.js",
+    "seeder": "node backend/utils/seeder.js"
   },
   "keywords": [
     "mern",

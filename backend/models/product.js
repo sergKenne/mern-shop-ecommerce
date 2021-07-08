@@ -40,7 +40,7 @@ const productSchema = new mongoose.Schema({
             values: [
                 'Electronics',
                 'Cameras',
-                'Laptop',
+                'Laptops',
                 'Accessories',
                 'Headphones',
                 'Food',
@@ -90,4 +90,6 @@ const productSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('product', productSchema)
+
+const Product = mongoose.model('Product', productSchema)
+module.exports = Product;
