@@ -27,7 +27,7 @@ const getAllProducts = async(req, res) => {
 
         const products = await Product.find({});
 
-        res.status(200).json(products);
+        res.status(200).json({succes: true, message: "request go well"});
         console.log({
             succes: true,
             message: 'get all products in request ....',

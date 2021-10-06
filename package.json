@@ -1,7 +1,7 @@
 {
   "name": "mern-shop-ecommerce",
   "version": "1.0.0",
-  "description": "full ecommerce (node express\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[mongodb express react nodejs)",
+  "description": "full ecommerce (node express mongodb express react nodejs)",
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
